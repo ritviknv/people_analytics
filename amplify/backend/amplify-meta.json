@@ -1,0 +1,51 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "locationtracker-20180829130418-authRole",
+			"UnauthRoleArn": "arn:aws:iam::884782581174:role/locationtracker-20180829130418-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::884782581174:role/locationtracker-20180829130418-authRole",
+			"Region": "us-east-2",
+			"DeploymentBucketName": "locationtracker-20180829130418-deployment",
+			"UnauthRoleName": "locationtracker-20180829130418-unauthRole",
+			"StackName": "locationtracker-20180829130418",
+			"StackId": "arn:aws:cloudformation:us-east-2:884782581174:stack/locationtracker-20180829130418/917b02d0-abad-11e8-a30b-0a888d4075c6"
+		}
+	},
+	"auth": {
+		"cognitoe7f4b950": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/locationtracker-20180829130418-deployment/amplify-cfn-templates/auth/cognitoe7f4b950-cloudformation-template.yml",
+				"logicalId": "authcognitoe7f4b950"
+			},
+			"lastPushTimeStamp": "2018-08-29T17:21:32.540Z",
+			"output": {
+				"AppClientSecret": "1tdcdvjubugv56gmmgetcp3mmsr4l99lbvo5gggmn8ope6njimkm",
+				"UserPoolId": "us-east-2_cl5j0ggdC",
+				"AppClientIDWeb": "57it3lnem71v3dbk6s3a06cfk4",
+				"AppClientID": "5md4l1q08pqhngqj6hnb35dm9h",
+				"IdentityPoolId": "us-east-2:7e52f29c-1cae-4fc7-a91b-95b1ebfcde07",
+				"IdentityPoolName": "cognitoe7f4b950_identitypool_e7f4b950",
+				"UserPoolName": "cognitoe7f4b950_userpool_e7f4b950"
+			},
+			"lastPushDirHash": "S+uNH92jkpw/yyIO64qJ++B0ET0="
+		}
+	},
+	"storage": {
+		"AuthResource": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/locationtracker-20180829130418-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
+				"logicalId": "storageAuthResource"
+			},
+			"lastPushTimeStamp": "2018-08-29T17:21:32.540Z",
+			"output": {
+				"BucketName": "locationtrackerf93c8e71a3bf4942892d11db93935384",
+				"Region": "us-east-2"
+			},
+			"lastPushDirHash": "CBbv58VlNOizNh8TOaHMt4wuEPI="
+		}
+	}
+}

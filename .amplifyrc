@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "locationtracker-20180829130418-authRole",
+            "UnauthRoleArn": "arn:aws:iam::884782581174:role/locationtracker-20180829130418-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::884782581174:role/locationtracker-20180829130418-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "locationtracker-20180829130418-deployment",
+            "UnauthRoleName": "locationtracker-20180829130418-unauthRole",
+            "StackName": "locationtracker-20180829130418",
+            "StackId": "arn:aws:cloudformation:us-east-2:884782581174:stack/locationtracker-20180829130418/917b02d0-abad-11e8-a30b-0a888d4075c6"
+        }
+    }
+}

@@ -1,0 +1,63 @@
+PODS:
+  - AWSAuthCore (2.6.27):
+    - AWSCore (= 2.6.27)
+  - AWSAuthUI (2.6.27):
+    - AWSAuthCore (= 2.6.27)
+    - AWSCore (= 2.6.27)
+  - AWSCognito (2.6.27):
+    - AWSCore (= 2.6.27)
+  - AWSCognitoAuth (2.6.27):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+  - AWSCognitoIdentityProvider (2.6.27):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.6.27)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.6.27)
+  - AWSMobileClient (2.6.27):
+    - AWSAuthCore (= 2.6.27)
+  - AWSS3 (2.6.27):
+    - AWSCore (= 2.6.27)
+  - AWSUserPoolsSignIn (2.6.27):
+    - AWSAuthCore (= 2.6.27)
+    - AWSCognitoIdentityProvider (= 2.6.27)
+
+DEPENDENCIES:
+  - AWSAuthUI (~> 2.6.13)
+  - AWSCognito
+  - AWSCognitoAuth
+  - AWSCognitoIdentityProvider
+  - AWSCognitoIdentityProviderASF
+  - AWSCore (~> 2.6.13)
+  - AWSMobileClient
+  - AWSMobileClient (~> 2.6.13)
+  - AWSS3 (~> 2.6.13)
+  - AWSUserPoolsSignIn (~> 2.6.13)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AWSAuthCore
+    - AWSAuthUI
+    - AWSCognito
+    - AWSCognitoAuth
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSMobileClient
+    - AWSS3
+    - AWSUserPoolsSignIn
+
+SPEC CHECKSUMS:
+  AWSAuthCore: 307c3043e169893579391acd30d1150e2aabfe53
+  AWSAuthUI: 32b201f4d5febeb3c30c130ee94fef95b1c3663a
+  AWSCognito: 582d098de9b4cc16bd9fad8e2fbea9f7280ec428
+  AWSCognitoAuth: 7fff204e45f8908ccf132024cdb0ebf3ea8eb357
+  AWSCognitoIdentityProvider: 3bfcca5d995405ff6b96b1d20d2d4ab14f4c3800
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: 87e3711bc0d7e055f9d85b6ef272d7f91f2e0796
+  AWSMobileClient: 20d8376dec701fd5812caedde0a8678e641c9ba9
+  AWSS3: 2069e63aeac5dd9fd90a74b8d717cacae7a8bf67
+  AWSUserPoolsSignIn: c9ed1d0412d39d3fd91aef1f54dfad4ca627b81e
+
+PODFILE CHECKSUM: 9700737d3ce0095520c1145a7be7da1e4aaffb80
+
+COCOAPODS: 1.5.3

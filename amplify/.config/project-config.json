@@ -1,0 +1,11 @@
+{
+    "projectName": "locationtracker",
+    "projectPath": "/Users/ritvikvasudevan/Desktop/Mobile Apps/Location Tracker Project/location_tracker",
+    "defaultEditor": "sublime",
+    "frontendHandler": {
+        "ios": "/usr/local/lib/node_modules/@aws-amplify/cli/node_modules/amplify-frontend-ios"
+    },
+    "providers": {
+        "awscloudformation": "/usr/local/lib/node_modules/@aws-amplify/cli/node_modules/amplify-provider-awscloudformation"
+    }
+}

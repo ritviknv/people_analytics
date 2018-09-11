@@ -1,0 +1,9 @@
+{
+    "bucketName": "locationtrackerf93c8e71a3bf4942892d11db93935384",
+    "authPolicyName": "s3_amplify_3d8f0900",
+    "unauthPolicyName": "s3_amplify_3d8f0900",
+    "authRoleName": "locationtracker-20180829130418-authRole",
+    "unauthRoleName": "locationtracker-20180829130418-unauthRole",
+    "authPermissions": "rw",
+    "unauthPermissions": ""
+}

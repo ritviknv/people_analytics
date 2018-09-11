@@ -1,0 +1,6 @@
+framework module Pods_location_tracker {
+  umbrella header "Pods-location_tracker-umbrella.h"
+
+  export *
+  module * { export * }
+}
